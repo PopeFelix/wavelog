@@ -28,7 +28,7 @@ $config['datadir'] = null; // default to install directory
 |	'display_freq'	Show or Hide frequnecy info
 */
 
-$config['table_name'] = 'TABLE_HRD_CONTACTS_V01';
+$config['table_name'] = 'table_hrd_contacts_v01';
 $config['locator'] = '';
 $config['display_freq'] = true;
 
@@ -782,7 +782,7 @@ $config['max_login_attempts'] = 3;
 |--------------------------------------------------------------------------
 | Disable User QSO Count in User List (Admin Menu)
 | Reason for this setting is to prevent performance issues on large installations
-| where the QSO count is not needed. Set to true to disable the QSO count. 
+| where the QSO count is not needed. Set to true to disable the QSO count.
 | This also hides the last Operator for CLubstations. Default is false.
 |--------------------------------------------------------------------------
  */

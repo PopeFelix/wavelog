@@ -135,7 +135,7 @@ class Debug_model extends CI_Model
     function get_qsoid_from_eqsl_filename($filename)
     {
 
-        $sql = "SELECT qso_id FROM eQSL_images WHERE image_file = ?";
+        $sql = "SELECT qso_id FROM eqsl_images WHERE image_file = ?";
 
         $result = $this->db->query($sql, $filename);
 

@@ -15,7 +15,7 @@ class Migration_fix_collate extends CI_Migration
 			'dxcc_entities',
 			'dxcc_exceptions',
 			'dxcc_prefixes',
-			'eQSL_images',
+			'eqsl_images',
 			'iota',
 			'lotw_certs',
 			'migrations',

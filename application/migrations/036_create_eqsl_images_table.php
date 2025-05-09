@@ -27,7 +27,7 @@ class Migration_create_eqsl_images_table extends CI_Migration {
                         ),
                 ));
                 $this->dbforge->add_key('id', TRUE);
-                $this->dbforge->create_table('eQSL_images');
+                $this->dbforge->create_table('eqsl_images');
         }
 
         public function down()

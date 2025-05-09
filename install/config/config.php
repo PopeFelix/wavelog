@@ -28,7 +28,7 @@ $config['datadir'] = null; // default to install directory
 |	'display_freq'	Show or Hide frequency info
 */
 
-$config['table_name'] = 'TABLE_HRD_CONTACTS_V01';
+$config['table_name'] = 'table_hrd_contacts_v01';
 $config['locator'] = '%baselocator%';
 $config['display_freq'] = true;
 
